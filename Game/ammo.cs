@@ -47,8 +47,8 @@ namespace twoDTDS.Game
             this.Y = Y;
             Width = 6;
             Height = 15;
-            string uri = "http://pixelartmaker.com/art/f59eaa826d4e49f.png";
-            Sprite = new Rec(Width, Height, uri);
+            /*/string uri = "http://pixelartmaker.com/art/f59eaa826d4e49f.png";*/
+            Sprite = new Rec(Width, Height, Asset.paths[0]);
         }
 
         public override void OnUpdate()
@@ -74,8 +74,8 @@ namespace twoDTDS.Game
             this.Y = Y;
             Width = 15;
             Height = 15;
-            string uri = "http://pixelartmaker.com/art/f59eaa826d4e49f.png";
-            Sprite = new Rec(Width, Height, uri);
+            /*string uri = "http://pixelartmaker.com/art/f59eaa826d4e49f.png";*/
+            Sprite = new Rec(Width, Height, Asset.paths[2]);
         }
 
         public override void OnUpdate()

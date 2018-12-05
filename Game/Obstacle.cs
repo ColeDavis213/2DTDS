@@ -27,8 +27,8 @@ namespace twoDTDS.Game
             this.Y = Y;
             Height = 50;
             Width = 50;
-            uri = "http://pixelartmaker.com/art/da268f06e621b21.png";
-            Sprite = new Rec(Width, Height, uri);
+            //uri = "http://pixelartmaker.com/art/da268f06e621b21.png";
+            Sprite = new Rec(Width, Height, Asset.paths[2]);
         }
 
         public override bool IsHit(GameObject other)

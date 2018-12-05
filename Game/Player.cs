@@ -37,7 +37,7 @@ namespace twoDTDS.Game
             Y = map.Height - 50;
             Width = 40;
             Height = 45;
-            uri = "C:\\Users\\Corey\\Source\\Repos\\Project\\MainWindow\\Assets\\down.png";
+            uri = Asset.paths[2];
             Sprite = new Rec(Width, Height, uri);
 
             myScore = new ScoreKeep();
